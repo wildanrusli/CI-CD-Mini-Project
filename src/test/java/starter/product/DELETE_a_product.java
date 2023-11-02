@@ -6,8 +6,8 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class DELETE_a_product {
-    public String valid_url_delete_product = "https://altashop-api.fly.dev/api/products/1";
-    public String invalid_url_delete_product = "https://altashop-api.fly.dev/api/product/1";
+    public String valid_url_delete_product = "https://altashop-api.fly.dev/api/products/2";
+    public String invalid_url_delete_product = "https://altashop-api.fly.dev/api/product/2";
 
     @Step("set DELETE valid endpoint")
     public String setDELETEValidEndpoint(){
